@@ -1,1 +1,73 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+:host {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  color: #333;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a:hover{text-decoration: none;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 8px 0;
+}
+/* body{background-image: url(assets/78824.jpg);} */
+
+p{margin:0;}
+.spacer{flex:1;}
+.toolbar{display:flex;align-items:center;font-weight:600;justify-content:space-between;flex-direction:row-reverse;width: 100%;}
+.toolbar img{width: 60px;}
+.toolbar #twitter-logo{height:40px;margin:0 16px;}
+.toolbar #twitter-logo:hover{opacity:.8;}
+.list-muen{list-style: none;display: flex;justify-content: center;margin-bottom: 0;padding: 0;}
+.list-muen li{margin: 0 15px;color: rgb(154, 104, 242);}
+.content{display:flex;margin:82px auto 32px;padding:0 16px;flex-direction:column;align-items:center;}
+.navbar{position: fixed;top: 0;width: 100%;background-color:#FFF;min-height:60px;border-radius:0;box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);z-index: 1;}
+.logo{display: flex;align-items:center}
+.logo span{font-size:24px;font-family:tahoma;color:rgb(154,104,242);}
+.component-recitres .static-div{position: relative; background-color:#fff;width:calc((100% - 30px) / 3);padding: 70px 20px;box-shadow: 0 15px 30px 0 rgba(0,0,0,.11), 0 5px 15px 0 rgba(0,0,0,.08);margin-bottom: 20px;}
+.component-recitres .static-div:not(:nth-child(3n)){margin-left: 15px;}
+.component-recitres .static-div .img-div{width: 100px}
+.component-recitres .static-div .suras{position:absolute;top:0;right:0;background-color:#383F84;color:#FFF;padding: 6px 14px;}
+.component-recitres .static-div .suras strong{display: block;}
+.component-recitres .static-div .rewaya{position:absolute;left:0;bottom:8px;background-color:#383F84;color:#FFF;margin:auto;padding:6px;font-family:tahoma;width:40px;height:35px;overflow:hidden;transition: width 2s;}
+.component-recitres .static-div{background-image:url(assets/pattern22.png);background-size:cover;background-repeat:no-repeat;}
+.component-recitres .static-div:hover .rewaya{width:70%;}
+
+
+
+.component-reader .reader-div{position: relative; background-color:#fff;width:calc((100% - 30px) / 3);padding: 70px 20px;box-shadow: 0 15px 30px 0 rgba(0,0,0,.11), 0 5px 15px 0 rgba(0,0,0,.08);margin-bottom: 20px;}
+.component-reader .reader-div:not(:nt;h-child(3n)){margin-left: 15px;}
+.component-reader .reader-div .img-div{width: 100px}
+.component-reader .reader-div .suras{position:absolute;top:0;right:0;background-color:#383F84;color:#FFF;padding: 6px 14px;}
+.component-reader .reader-div .suras strong{display: block;}
+.component-reader .reader-div .rewaya{position:absolute;left:0;bottom:8px;background-color:#383F84;color:#FFF;margin:auto;padding:6px;font-family:tahoma;width:40px;height:35px;overflow:hidden;transition: width 2s;}
+/* .component-reader .reader-div{background-image:url(assets/386561-PC2IN3-880.jpg);background-size:cover;background-repeat:no-repeat;} */
+.component-reader .reader-div:hover .rewaya{width:70%;}
+.one-reader{border-radius:15px;width:100%;height:150px;margin:auto;position:relative;background-color:#fff;box-shadow:0 15px 30px 0 rgba(0,0,0,.11),0 5px 15px 0 rgba(0,0,0,.08);margin-bottom:20px;}
+.one-reader{ background-image:url(assets/pattern22.png);background-size:cover;background-repeat:no-repeat;}
+.one-reader p{align-self: center;width: 100%;}
+
+
+
+/* body{
+  background-image: url(assets/pattern22.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+} */
+
+
+
+

@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="component-recitres d-flex flex-row-reverse flex-wrap text-center w-100">
+    <div class="static-div">
+      <img class="img-div" src="../../../assets/Pngtree.png" alt="Pngtree">
+      <p>
+        {{data.description}}
+      </p>
+    </div>
+    <div class="static-div"  *ngFor="let reciters of data.recitations" >
+     <a  #click  [routerLink]="['/reader',reciters.id]">
+      <img class="img-div" src="../../../assets/reciters.png" alt="Pngtree">
+      <p>
+        {{reciters.title}}
+      </p>
+      <!-- <p class="rewaya">
+        رواية
+        {{reciters.rewaya}}
+      </p> -->
+      <p class="suras">
+        عدد السور
+       <strong> {{reciters.count}}</strong>
+      </p>
+     </a>
+    </div>
+
+
+</div>

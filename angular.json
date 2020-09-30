@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Quran"
+    }
+  },
+  "defaultProject": "Quran",
+  "cli": {
+    "analytics": "8a170421-0a8b-4af5-8c3b-6a921119e92a"
+  }
 }
